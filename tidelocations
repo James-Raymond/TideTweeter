@@ -1,0 +1,12 @@
+{
+"Cobh":
+  {
+  "url": "https://www.tide-forecast.com/locations/Cobh-Ireland/tides/latest",
+  "title": "Cobh Tide Times"
+  },
+"Tarbert":
+  {
+    "url": "https://www.tide-forecast.com/locations/Talbert-Island-River-Shannon-Ireland/tides/latest",
+    "title": "Tarbert Tide Times"
+  }
+}
