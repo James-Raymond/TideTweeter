@@ -2,11 +2,56 @@
 "Cobh":
   {
   "url": "https://www.tide-forecast.com/locations/Cobh-Ireland/tides/latest",
-  "title": "Cobh Tide Times"
+  "title": "Cobh Tide Time"
   },
 "Tarbert":
   {
     "url": "https://www.tide-forecast.com/locations/Talbert-Island-River-Shannon-Ireland/tides/latest",
-    "title": "Tarbert Tide Times"
+    "title": "Tarbert Tide Time"
+  },
+"Cork Harbour":
+  {
+  "url": "https://www.tide-forecast.com/locations/Cork/tides/latest",
+  "title": "Cork Harbour Tide Time"
+  },
+"Dublin Port":
+  {
+  "url": "https://www.tide-forecast.com/locations/Dublin-Ireland/tides/latest",
+  "title": "Dublin Port Tide Time"
+  },
+"Dungarvan":
+  {
+  "url": "https://www.tide-forecast.com/locations/Dungarvan/tides/latest",
+  "title": "Dungarvan Tide Time"
+  },
+"Galway":
+  {
+  "url": "https://www.tide-forecast.com/locations/Galway/tides/latest",
+  "title": "Galway Tide Time"
+  },
+"Westport":
+  {
+  "url": "https://www.tide-forecast.com/locations/Westport/tides/latest",
+  "title": "Westport Tide Time"
+  },
+"Buncrana":
+  {
+  "url": "https://www.tide-forecast.com/locations/Bun-Cranncha/tides/latest",
+  "title": "Buncrana Tide Time"
+  },
+"Wexford":
+  {
+  "url": "https://www.tide-forecast.com/locations/Loch-Garman/tides/latest",
+  "title": "Wexford Tide Time"
+  },
+"Tralee":
+  {
+  "url": "https://www.tide-forecast.com/locations/Tra-Li/tides/latest",
+  "title": "Tralee Tide Time"
+  },
+"Ballycastle":
+  {
+  "url": "https://www.tide-forecast.com/locations/Ballycastle/tides/latest",
+  "title": "Ballycastle Tide Time"
   }
 }

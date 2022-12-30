@@ -4,3 +4,4 @@ tide_time_details.json
 tidetimes.json
 tidetimes.txt
 tidelocations
+.DS*
