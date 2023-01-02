@@ -105,7 +105,14 @@ def organise_data(urls_list):
 
 def convert24(time):
     # Parse the time string into a datetime object
-    t = datetime.strptime(time, '%I:%M%p')
+    try:
+        t = datetime.strptime(time, '%I:%M%p')
+
+    except(ValueError):
+        # does not like 00:00 - 00:59 so this had to fixed
+
+        t =  datetime.strptime(time.split('AM')[0], '%H:%M')
+
     # Format the datetime object into a 24-hour time string
     return t.strftime('%H:%M')
 
