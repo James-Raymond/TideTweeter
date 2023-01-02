@@ -60,8 +60,8 @@ def extract_details(details_list):
             am_or_pm = cleanup_am_or_pm.split('(')
             cleanup_height = list_of_splits[5]
             # add the data to a key value pairs
-            pprint(list_of_splits)
-            print(cleanup_height)
+            #pprint(list_of_splits)
+            #print(cleanup_height)
             items['height'] = cleanup_height.split(')')[1]
             time = convert24((f'{list_of_splits[2]}{am_or_pm[0]}'))
             items['time'] = time
@@ -74,7 +74,7 @@ def extract_details(details_list):
             cleanup_height = list_of_splits[4]
 
             # add the data to a key value pairs
-            pprint(tide_split)
+            #pprint(tide_split)
 
             items['height'] = cleanup_height.split(')')[1]
             time = convert24((f'{tide_split[1]}{am_or_pm[0]}'))
@@ -140,12 +140,12 @@ def tweet_tides(data):
         f"{data['title']}\nIt is currently {data['high_or_low']} tide in {data['location']}.\n"
         f"It is {data['height']} meter tide\n #irishtides #tidetimes #{data['location']}tide "
         )
-    print(tweet)
+    #print(tweet)
 
     client = tweepy.Client(bearer_token=bearer_token, consumer_key=consumer_key, consumer_secret=consumer_secret,
     access_token=access_token, access_token_secret=access_token_secret)
     # update the status
-    print(client.create_tweet(text = tweet))
+    #print(client.create_tweet(text = tweet))
         
 def run_get_tides():
 
@@ -159,8 +159,8 @@ def run_get_tides():
     # run for each tide location
     for urls in urls_list:
         tide_details = get_times(urls_list[urls]['url'])
-        print(urls)
-        pprint(tide_details)
+        #print(urls)
+        #pprint(tide_details)
         details = extract_details(tide_details)
 
         # add the details extracted eg time, hight etc to the url list
@@ -173,10 +173,10 @@ def run_get_tides():
 
 if __name__ == "__main__":
     while(1):
-        print('get tide info')
+        #print('get tide info')
         run_get_tides()
         while (datetime.now().strftime("%H:%M") != '00:00'):
-            print('checking time')
+            #print('checking time')
             check_times()
             time.sleep(60)
     """
