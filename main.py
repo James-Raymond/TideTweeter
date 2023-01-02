@@ -3,7 +3,6 @@ import time
 import requests
 from bs4 import BeautifulSoup
 import json
-from dotenv import load_dotenv
 import os
 from datetime import datetime
 import tweepy
